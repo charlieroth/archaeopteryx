@@ -1,6 +1,6 @@
 {
   "tasks": {
-    "dev": "deno run main.ts"
+    "dev": "deno run --allow-read --allow-net main.ts"
   },
   "imports": {
     "@nostr/tools": "jsr:@nostr/tools@^2.10.4",
