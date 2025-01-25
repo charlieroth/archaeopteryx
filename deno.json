@@ -4,6 +4,7 @@
   },
   "imports": {
     "@nostr/tools": "jsr:@nostr/tools@^2.10.4",
-    "@nostrify/nostrify": "jsr:@nostrify/nostrify@^0.37.0"
+    "@nostrify/nostrify": "jsr:@nostrify/nostrify@^0.37.0",
+    "@std/cli": "jsr:@std/cli@^1.0.11"
   }
 }

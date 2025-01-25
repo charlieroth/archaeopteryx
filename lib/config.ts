@@ -12,7 +12,7 @@ export const load = async (): Promise<Config> => {
       relays: configJson.relays,
       privateKey: configJson.privateKey,
     };
-  } catch (err) {
+  } catch {
     throw new Error("Failed to load config");
   }
 }
