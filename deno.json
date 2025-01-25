@@ -2,5 +2,7 @@
   "tasks": {
     "dev": "deno run main.ts"
   },
-  "imports": {}
+  "imports": {
+    "@nostrify/nostrify": "jsr:@nostrify/nostrify@^0.37.0"
+  }
 }
